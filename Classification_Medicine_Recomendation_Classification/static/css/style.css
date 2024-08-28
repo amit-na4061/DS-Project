@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+
+}
+nav{
+    padding: 0px 20px;
+    box-shadow: 2px 1px 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 239, 241);
+    position: sticky;
+    height: 50px;
+    background-color: black;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.middle-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-nav ul li{
+    padding: 0px 13px;
+    list-style: none;
+}
+.middle-nav ul li a{
+    text-decoration: none;
+    color:white
+}
+.right-nav .search{
+  padding: 2px;
+  font-size: 16px;
+  outline: none;
+}
+.right-nav .search_btn{
+    width: 100px;
+    height: 27px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 2px 1px 4px black;
+}
+
+/* Heading part */
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+.container{
+    width: 80%;
+    min-height: 200px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+    
+    background-color: black;
+}
+.container .Symptoms{
+    margin: 25px 25px 12px 25px;
+    display: flex;
+    flex-direction: column;
+   
+}
+label{
+    margin-bottom:5px ;
+    color: white;
+}
+#select{
+    padding: 3px;
+}
+#Speech{
+    margin: 0px 23px;
+    padding: 4px;
+    border-radius: 24px;
+    border: none;
+    background-color: rgb(45, 45, 223);
+    color: white;
+    cursor: pointer;
+}
+.Predict_btn{
+    display: flex;
+    justify-content: center;
+    
+}
+#Predict{
+    margin: 23px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(233, 7, 7);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .4s;
+}
+#Predict:hover{
+    background-color: yellow;
+    color: black;
+}
+.product{
+    text-align: center;
+    margin: 20px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.product_section{
+    width: 80%;
+    min-height: 100px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product_section .product_items{
+    width: 120px;
+    height: 34px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    text-align: center;
+    
+}
+#p1{
+    background-color: orange;
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#p1:hover{
+    background-color: rgb(255, 0, 179);
+    color: white;
+}
+#p2{
+    background-color: blue;
+    color: white;
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#p2:hover{
+    background-color: rgb(217, 255, 0);
+    color: black;
+}
+
+#p3{
+    background-color: rgb(220, 84, 220);
+    color: white;
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+#p3:hover{
+    background-color: rgb(58, 236, 26);
+    color: black;
+}
+
+#p4{
+    background-color: rgb(221, 38, 32);
+    color: white;
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#p4:hover{
+    background-color: rgb(235, 238, 39);
+    color: black;
+}
+#p5{
+    background-color: rgb(130, 230, 30);
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#p5:hover{
+    background-color: rgb(32, 244, 212);
+    color: black;
+}
+#p6{
+    background-color: rgb(199, 231, 21);
+    box-shadow: 1px 3px 6px 1px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#p6:hover{
+    background-color: rgb(21, 23, 22);
+    color:white;
+}

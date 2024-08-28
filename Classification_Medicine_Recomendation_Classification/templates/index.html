@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="lert-nav">
+            <img src="/img/background.png" alt="logo here" class="logo">
+        </div>
+        <div class="middle-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Developer</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <input type="search" class="search" placeholder="Search">
+            <button class="search_btn">Search</button>
+        </div>
+    </nav>
+    <h2 class="heading">Health Care Center</h2>
+    <div class="container">
+        <div class="Symptoms">
+            <label for="select" id="">Select Symptoms </label>
+            <input type="text" placeholder="Symptoms1" id="select">
+            <input type="text" placeholder="Symptoms2" id="select">
+            <input type="text" placeholder="Symptoms3" id="select">
+            <input type="text" placeholder="Symptoms4" id="select">
+            <input type="text" placeholder="Symptoms5" id="select">
+            <input type="text" placeholder="Symptoms6" id="select">
+            <input type="text" placeholder="Symptoms7" id="select">
+        </div>
+        <button id="Speech" >Search </button>
+        <div class="Predict_btn">
+            <button id="Predict" >Predict </button>
+        </div>
+    </div>
+    <h2 class="product">Our AI System Result</h2>
+    <section>
+        <div class="product_section">
+            <div class="product_items" id="p1">Disease</div>
+            <div class="product_items" id="p2">Description</div>
+            <div class="product_items" id="p3">Precaution</div>
+            <div class="product_items" id="p4">Medications</div>
+            <div class="product_items" id="p5">Workouts</div>
+            <div class="product_items" id="p6">Diets</div>
+        </div>
+    </section>
+</body>
+</html>
