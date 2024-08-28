@@ -1,6 +1,6 @@
 # Crops-Classification-With-Recommendation-System-Machine-Learning
 Crops Classification With Recommendation System Machine Learning
-models = {
+** models **
     - 'Linear Discriminant Analysis': LinearDiscriminantAnalysis(),
     - 'Logistic Regression': LogisticRegression(),
     - 'Naive Bayes': GaussianNB(),
@@ -12,4 +12,3 @@ models = {
     - 'AdaBoost': AdaBoostClassifier(),
     - 'Gradient Boosting': GradientBoostingClassifier(),
     - 'Extra Trees': ExtraTreeClassifier(),
-}
