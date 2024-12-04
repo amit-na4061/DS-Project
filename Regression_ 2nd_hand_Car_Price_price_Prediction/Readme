@@ -1,7 +1,3 @@
-Here’s a sample README file for your project:  
-
----
-
 # Second-Hand Car Price Prediction Using ANN  
 This repository contains a machine learning project to predict the price of second-hand cars using Artificial Neural Networks (ANN) with the CRISP-DM methodology. The model achieved a **training accuracy of 89%** and a **test accuracy of 93%**, demonstrating its strong performance in predicting car prices.  
 
